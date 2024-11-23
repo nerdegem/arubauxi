@@ -1,0 +1,128 @@
+General initialization - Version: 1.0.0
+AVS selection from EFUSE disabled (Skip reading EFUSE values)
+Overriding default AVS value to: 0x23
+Detected Device ID 6820
+High speed PHY - Version: 2.0
+
+Init Customer board board SerDes lanes topology details:
+ | Lane # | Speed|    Type     |
+ ------------------------------|
+ |   1    |  5   |  PCIe0      |
+ -------------------------------
+High speed PHY - Ended Successfully
+DDR3 Training Sequence - Ver TIP-1.56.0
+DDR3 Training Sequence - Switching XBAR Window to FastPath Window 
+DDR3 Training Sequence - Ended Successfully
+�
+UXBOOT Production Build Version 2.1.0
+
+
+                              __   __   __  ___
+                    |  | \_/ |__) /  \ /  \  |
+                    \__/ / \ |__) \__/ \__/  |
+
+
+
+U-Boot 2013.01-v2.1.0-pilot-release
+Aruba Three Ships UX-Gxx
+(Oct 09 2019 - 11:34:45) 
+
+   
+4967424 bytes read in 160 ms (29.6 MiB/s)
+15053 bytes read in 9 ms (1.6 MiB/s)
+## Flattened Device Tree blob at 01000000
+   Booting using the fdt blob at 0x01000000
+   Loading Device Tree to 00ff9000, end 00fffacc ... OK
+
+   Skipping Device Tree update ('fdt_skip_update' = yes)
+
+Limit DDR size at 3GB due to power of 2 requirement of Address decoding
+
+Starting kernel ...
+
+
+Welcome to Debian GNU/Linux 9 (stretch)!
+
+[  OK  ] Reached target Remote File Systems.
+[  OK  ] Started Dispatch Password Requests to Console Directory Watch.
+[  OK  ] Created slice System Slice.
+[  OK  ] Created slice system-getty.slice.
+[  OK  ] Listening on udev Kernel Socket.
+[  OK  ] Listening on Journal Socket (/dev/log).
+[  OK  ] Listening on udev Control Socket.
+[  OK  ] Listening on /dev/initctl Compatibility Named Pipe.
+[  OK  ] Created slice system-serial\x2dgetty.slice.
+[  OK  ] Created slice User and Session Slice.
+         Mounting Debug File System...
+[  OK  ] Listening on Journal Socket.
+         Starting Load Kernel Modules...
+         Starting Journal Service...
+         Starting Remount Root and Kernel File Systems...
+         Starting Create Static Device Nodes in /dev...
+[  OK  ] Started Forward Password Requests to Wall Directory Watch.
+[  OK  ] Reached target Paths.
+[  OK  ] Reached target Encrypted Volumes.
+[  OK  ] Reached target Swap.
+[  OK  ] Reached target Slices.
+[  OK  ] Mounted Debug File System.
+[  OK  ] Started Journal Service.
+[  OK  ] Started Load Kernel Modules.
+[  OK  ] Started Remount Root and Kernel File Systems.
+[  OK  ] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+         Starting udev Coldplug all Devices...
+[  OK  ] Reached target Local File Systems (Pre).
+         Starting Load/Save Random Seed...
+[  OK  ] Reached target Local File Systems.
+         Starting Apply Kernel Variables...
+         Starting Flush Journal to Persistent Storage...
+[  OK  ] Started udev Kernel Device Manager.
+[  OK  ] Started Load/Save Random Seed.
+[  OK  ] Started Apply Kernel Variables.
+[  OK  ] Started Flush Journal to Persistent Storage.
+         Starting Create Volatile Files and Directories...
+[  OK  ] Started Create Volatile Files and Directories.
+[  OK  ] Started Entropy daemon using the HAVEGE algorithm.
+         Starting Update UTMP about System Boot/Shutdown...
+         Starting Network Time Synchronization...
+[  OK  ] Started udev Coldplug all Devices.
+[  OK  ] Found device /dev/ttyS0.
+[  OK  ] Started Update UTMP about System Boot/Shutdown.
+[  OK  ] Started Network Time Synchronization.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Started Daily Cleanup of Temporary Directories.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+[  OK  ] Reached target Sockets.
+[  OK  ] Reached target Basic System.
+[  OK  ] Started Regular background program processing daemon.
+         Starting supervisord - Supervisor process control system for UNIX...
+         Starting Login Service...
+[  OK  ] Started D-Bus System Message Bus.
+         Starting Permit User Sessions...
+[  OK  ] Reached target System Time Synchronized.
+[  OK  ] Started Daily apt download activities.
+[  OK  ] Started Daily apt upgrade and clean activities.
+[  OK  ] Reached target Timers.
+[  OK  ] Started Permit User Sessions.
+[  OK  ] Started Login Service.
+[  OK  ] Started Serial Getty on ttyS0.
+[  OK  ] Started Getty on tty1.
+[  OK  ] Reached target Login Prompts.
+[  OK  ] Reached target Bluetooth.
+[  OK  ] Started supervisord - Supervisor process control system for UNIX.
+         Starting Cape Loader...
+
+Debian GNU/Linux 9 XXSERIALNOXX ttyS0
+
+CNLLKRY06V login: [  OK  ] UXI OS Release Version: 2024.08.20.1-5102
+[  OK  ] UXI Platform: UX-G5E
+[  OK  ] UXI OS Kernel Version: 4.14.76
+[  OK  ] UXI OS Interfaces: OK
+[  OK  ] UXI TPM Driver Load: OK
+[  OK  ] UXI TPM Key Status: OK
+[  OK  ] UXI TPM Certificate Status: OK
+[  OK  ] UXI OS Status: OK
+
+Debian GNU/Linux 9 XXSERIALNOXX ttyS0
+
+CNLLKRY06V login: 
